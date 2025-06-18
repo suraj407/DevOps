@@ -10,9 +10,12 @@ Currently, it’s a single messy flat file with duplicated code and hardcoded va
 You are given the following Terraform configuration:
 
 # Task:
- Refactor this configuration into a clean, reusable module-based structure that can 
+
+Refactor this configuration into a clean, reusable module-based structure that can 
 be used across multiple environments (dev, staging, prod).
-• Avoid duplication
-• Make it environment-agnostic via variables
-• Structure it into layers if possible (e.g., core infra, network, services, etc.)
-• Bonus: show how to call this module for different environments
+
+- Avoid duplication  
+- Make it environment-agnostic via variables  
+- Structure it into layers if possible (e.g., core infra, network, services, etc.)  
+- Bonus: show how to call this module for different environments
+
