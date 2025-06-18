@@ -65,7 +65,7 @@ resource "azurerm_virtual_network" "network" {
 
   subnet {
     name             = "prod-subnet"
-    address_prefixes = ["10.0.2.0/24"]
+    address_prefixes = ["192.0.2.0/24"]
     security_group   = azurerm_network_security_group.prod.id
   }
 
