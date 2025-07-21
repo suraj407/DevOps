@@ -1,4 +1,4 @@
-# Senior DevOps Engineer — Terraform Refactoring Challenge
+# DevOps Engineer — Terraform Refactoring Challenge
 
 ## 📑 Problem Statement
 You are provided with a messy Terraform configuration file defining Azure infrastructure for both dev and prod environments.
